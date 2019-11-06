@@ -5,7 +5,7 @@
 //  Created by Vitor Silva on 28/08/19.
 //  Copyright © 2019 Vitor Silva. All rights reserved.
 //
-// HackerRank: https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=greedy-algorithms
+// HackerRank: https://www.hackerrank.com/challenges/reverse-shuffle-merge/problem
 
 #include <iostream>
 #define AZ ('z' - 'a' + 1) // Number of letters in [a,z]
