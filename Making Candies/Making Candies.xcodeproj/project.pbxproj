@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		256E25872373088700338E57 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256E25862373088700338E57 /* main.swift */; };
+		2557F65923E3BB1200B3FD06 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557F65823E3BB1200B3FD06 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		256E25812373088700338E57 /* CopyFiles */ = {
+		2557F65323E3BB1200B3FD06 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		256E25832373088700338E57 /* Making Candies */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Making Candies"; sourceTree = BUILT_PRODUCTS_DIR; };
-		256E25862373088700338E57 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2557F65523E3BB1200B3FD06 /* Making Candies */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Making Candies"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2557F65823E3BB1200B3FD06 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		256E25802373088700338E57 /* Frameworks */ = {
+		2557F65223E3BB1200B3FD06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +38,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		256E257A2373088700338E57 = {
+		2557F64C23E3BB1200B3FD06 = {
 			isa = PBXGroup;
 			children = (
-				256E25852373088700338E57 /* Making Candies */,
-				256E25842373088700338E57 /* Products */,
+				2557F65723E3BB1200B3FD06 /* Making Candies */,
+				2557F65623E3BB1200B3FD06 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		256E25842373088700338E57 /* Products */ = {
+		2557F65623E3BB1200B3FD06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				256E25832373088700338E57 /* Making Candies */,
+				2557F65523E3BB1200B3FD06 /* Making Candies */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		256E25852373088700338E57 /* Making Candies */ = {
+		2557F65723E3BB1200B3FD06 /* Making Candies */ = {
 			isa = PBXGroup;
 			children = (
-				256E25862373088700338E57 /* main.swift */,
+				2557F65823E3BB1200B3FD06 /* main.swift */,
 			);
 			path = "Making Candies";
 			sourceTree = "<group>";
@@ -65,13 +65,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		256E25822373088700338E57 /* Making Candies */ = {
+		2557F65423E3BB1200B3FD06 /* Making Candies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 256E258A2373088700338E57 /* Build configuration list for PBXNativeTarget "Making Candies" */;
+			buildConfigurationList = 2557F65C23E3BB1200B3FD06 /* Build configuration list for PBXNativeTarget "Making Candies" */;
 			buildPhases = (
-				256E257F2373088700338E57 /* Sources */,
-				256E25802373088700338E57 /* Frameworks */,
-				256E25812373088700338E57 /* CopyFiles */,
+				2557F65123E3BB1200B3FD06 /* Sources */,
+				2557F65223E3BB1200B3FD06 /* Frameworks */,
+				2557F65323E3BB1200B3FD06 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,25 +79,25 @@
 			);
 			name = "Making Candies";
 			productName = "Making Candies";
-			productReference = 256E25832373088700338E57 /* Making Candies */;
+			productReference = 2557F65523E3BB1200B3FD06 /* Making Candies */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		256E257B2373088700338E57 /* Project object */ = {
+		2557F64D23E3BB1200B3FD06 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Vitor Silva";
 				TargetAttributes = {
-					256E25822373088700338E57 = {
-						CreatedOnToolsVersion = 11.1;
+					2557F65423E3BB1200B3FD06 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 256E257E2373088700338E57 /* Build configuration list for PBXProject "Making Candies" */;
+			buildConfigurationList = 2557F65023E3BB1200B3FD06 /* Build configuration list for PBXProject "Making Candies" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 256E257A2373088700338E57;
-			productRefGroup = 256E25842373088700338E57 /* Products */;
+			mainGroup = 2557F64C23E3BB1200B3FD06;
+			productRefGroup = 2557F65623E3BB1200B3FD06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				256E25822373088700338E57 /* Making Candies */,
+				2557F65423E3BB1200B3FD06 /* Making Candies */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		256E257F2373088700338E57 /* Sources */ = {
+		2557F65123E3BB1200B3FD06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				256E25872373088700338E57 /* main.swift in Sources */,
+				2557F65923E3BB1200B3FD06 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		256E25882373088700338E57 /* Debug */ = {
+		2557F65A23E3BB1200B3FD06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		256E25892373088700338E57 /* Release */ = {
+		2557F65B23E3BB1200B3FD06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +240,7 @@
 			};
 			name = Release;
 		};
-		256E258B2373088700338E57 /* Debug */ = {
+		2557F65D23E3BB1200B3FD06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -251,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		256E258C2373088700338E57 /* Release */ = {
+		2557F65E23E3BB1200B3FD06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -265,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		256E257E2373088700338E57 /* Build configuration list for PBXProject "Making Candies" */ = {
+		2557F65023E3BB1200B3FD06 /* Build configuration list for PBXProject "Making Candies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				256E25882373088700338E57 /* Debug */,
-				256E25892373088700338E57 /* Release */,
+				2557F65A23E3BB1200B3FD06 /* Debug */,
+				2557F65B23E3BB1200B3FD06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		256E258A2373088700338E57 /* Build configuration list for PBXNativeTarget "Making Candies" */ = {
+		2557F65C23E3BB1200B3FD06 /* Build configuration list for PBXNativeTarget "Making Candies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				256E258B2373088700338E57 /* Debug */,
-				256E258C2373088700338E57 /* Release */,
+				2557F65D23E3BB1200B3FD06 /* Debug */,
+				2557F65E23E3BB1200B3FD06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 256E257B2373088700338E57 /* Project object */;
+	rootObject = 2557F64D23E3BB1200B3FD06 /* Project object */;
 }

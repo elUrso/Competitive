@@ -5,6 +5,9 @@
       location = "container:"
       name = "HackerRank">
       <FileRef
+         location = "group:Making Candies/Making Candies.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Inserting a Node Into a Sorted Doubly Linked List/Inserting a Node Into a Sorted Doubly Linked List.xcodeproj">
       </FileRef>
       <FileRef
