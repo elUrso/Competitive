@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <FileRef
-      location = "group:Abbreviation/Abbreviation.xcodeproj">
-   </FileRef>
    <Group
       location = "container:"
       name = "HackerRank">
+      <FileRef
+         location = "group:Friend Circle Queries/Friend Circle Queries.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Candies/Candies.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Abbreviation/Abbreviation.xcodeproj">
+      </FileRef>
       <FileRef
          location = "group:Flipping Bits/Flipping Bits.xcodeproj">
       </FileRef>
