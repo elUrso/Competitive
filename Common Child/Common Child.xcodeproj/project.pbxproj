@@ -108,7 +108,7 @@
 		4E24C545230A152F00FB169D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1030;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Vitor Silva";
 				TargetAttributes = {
 					4E24C54C230A152F00FB169D = {
@@ -122,6 +122,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 4E24C544230A152F00FB169D;
 			productRefGroup = 4E24C54E230A152F00FB169D /* Products */;
@@ -275,6 +276,7 @@
 		4E24C555230A152F00FB169D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -283,6 +285,7 @@
 		4E24C556230A152F00FB169D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

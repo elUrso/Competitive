@@ -5,7 +5,7 @@
 //  Created by Vitor Silva on 20/02/20.
 //  Copyright © 2020 Vitor Silva. All rights reserved.
 //
-//  HackerRank: https://www.hackerrank.com/challenges/torque-and-development/problem
+//  HackerRank: https://www.hackerrank.com/challenges/torque-and-development/problem 
 
 import Foundation
 

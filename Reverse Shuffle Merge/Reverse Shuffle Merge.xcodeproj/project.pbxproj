@@ -88,7 +88,7 @@
 		4EC3E1C82316BBCC00A8CB4F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Vitor Silva";
 				TargetAttributes = {
 					4EC3E1CF2316BBCC00A8CB4F = {
@@ -238,6 +238,7 @@
 		4EC3E1D82316BBCC00A8CB4F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -246,6 +247,7 @@
 		4EC3E1D92316BBCC00A8CB4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
