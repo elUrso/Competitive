@@ -5,6 +5,9 @@
       location = "container:"
       name = "HackerRank">
       <FileRef
+         location = "group:Maximum Xor/Maximum Xor.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Roads and Libraries/Roads and Libraries.xcodeproj">
       </FileRef>
       <FileRef
