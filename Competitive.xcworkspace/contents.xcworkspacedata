@@ -5,6 +5,9 @@
       location = "container:"
       name = "HackerRank">
       <FileRef
+         location = "group:Largest Rectangle/Largest Rectangle.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Poisonous Plants/Poisonous Plants.xcodeproj">
       </FileRef>
       <FileRef
