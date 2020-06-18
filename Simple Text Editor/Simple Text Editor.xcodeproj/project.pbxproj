@@ -7,21 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		251CEB0B24992DBC0069E046 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251CEB0A24992DBC0069E046 /* main.swift */; };
+		257EF1FF249AC8BA007DC15C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 257EF1FE249AC8BA007DC15C /* main.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		257EF209249AC8BB007DC15C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 257EF205249AC8BA007DC15C /* Simple Text Editor.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 257EF1FB249AC8BA007DC15C;
-			remoteInfo = "Simple Text Editor";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		251CEB0524992DBC0069E046 /* CopyFiles */ = {
+		257EF1F9249AC8BA007DC15C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -33,13 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		251CEB0724992DBC0069E046 /* Largest Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Largest Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		251CEB0A24992DBC0069E046 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		257EF205249AC8BA007DC15C /* Simple Text Editor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Simple Text Editor.xcodeproj"; path = "../Simple Text Editor/Simple Text Editor.xcodeproj"; sourceTree = "<group>"; };
+		257EF1FB249AC8BA007DC15C /* Simple Text Editor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Simple Text Editor"; sourceTree = BUILT_PRODUCTS_DIR; };
+		257EF1FE249AC8BA007DC15C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		251CEB0424992DBC0069E046 /* Frameworks */ = {
+		257EF1F8249AC8BA007DC15C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,75 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		251CEAFE24992DBC0069E046 = {
+		257EF1F2249AC8BA007DC15C = {
 			isa = PBXGroup;
 			children = (
-				257EF205249AC8BA007DC15C /* Simple Text Editor.xcodeproj */,
-				251CEB0924992DBC0069E046 /* Largest Rectangle */,
-				251CEB0824992DBC0069E046 /* Products */,
+				257EF1FD249AC8BA007DC15C /* Simple Text Editor */,
+				257EF1FC249AC8BA007DC15C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		251CEB0824992DBC0069E046 /* Products */ = {
+		257EF1FC249AC8BA007DC15C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				251CEB0724992DBC0069E046 /* Largest Rectangle */,
+				257EF1FB249AC8BA007DC15C /* Simple Text Editor */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		251CEB0924992DBC0069E046 /* Largest Rectangle */ = {
+		257EF1FD249AC8BA007DC15C /* Simple Text Editor */ = {
 			isa = PBXGroup;
 			children = (
-				251CEB0A24992DBC0069E046 /* main.swift */,
+				257EF1FE249AC8BA007DC15C /* main.swift */,
 			);
-			path = "Largest Rectangle";
-			sourceTree = "<group>";
-		};
-		257EF206249AC8BA007DC15C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				257EF20A249AC8BB007DC15C /* Simple Text Editor */,
-			);
-			name = Products;
+			path = "Simple Text Editor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		251CEB0624992DBC0069E046 /* Largest Rectangle */ = {
+		257EF1FA249AC8BA007DC15C /* Simple Text Editor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 251CEB0E24992DBC0069E046 /* Build configuration list for PBXNativeTarget "Largest Rectangle" */;
+			buildConfigurationList = 257EF202249AC8BA007DC15C /* Build configuration list for PBXNativeTarget "Simple Text Editor" */;
 			buildPhases = (
-				251CEB0324992DBC0069E046 /* Sources */,
-				251CEB0424992DBC0069E046 /* Frameworks */,
-				251CEB0524992DBC0069E046 /* CopyFiles */,
+				257EF1F7249AC8BA007DC15C /* Sources */,
+				257EF1F8249AC8BA007DC15C /* Frameworks */,
+				257EF1F9249AC8BA007DC15C /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Largest Rectangle";
-			productName = "Largest Rectangle";
-			productReference = 251CEB0724992DBC0069E046 /* Largest Rectangle */;
+			name = "Simple Text Editor";
+			productName = "Simple Text Editor";
+			productReference = 257EF1FB249AC8BA007DC15C /* Simple Text Editor */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		251CEAFF24992DBC0069E046 /* Project object */ = {
+		257EF1F3249AC8BA007DC15C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Vitor Silva";
 				TargetAttributes = {
-					251CEB0624992DBC0069E046 = {
+					257EF1FA249AC8BA007DC15C = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = 251CEB0224992DBC0069E046 /* Build configuration list for PBXProject "Largest Rectangle" */;
+			buildConfigurationList = 257EF1F6249AC8BA007DC15C /* Build configuration list for PBXProject "Simple Text Editor" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,45 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 251CEAFE24992DBC0069E046;
-			productRefGroup = 251CEB0824992DBC0069E046 /* Products */;
+			mainGroup = 257EF1F2249AC8BA007DC15C;
+			productRefGroup = 257EF1FC249AC8BA007DC15C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 257EF206249AC8BA007DC15C /* Products */;
-					ProjectRef = 257EF205249AC8BA007DC15C /* Simple Text Editor.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				251CEB0624992DBC0069E046 /* Largest Rectangle */,
+				257EF1FA249AC8BA007DC15C /* Simple Text Editor */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		257EF20A249AC8BB007DC15C /* Simple Text Editor */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "Simple Text Editor";
-			remoteRef = 257EF209249AC8BB007DC15C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		251CEB0324992DBC0069E046 /* Sources */ = {
+		257EF1F7249AC8BA007DC15C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251CEB0B24992DBC0069E046 /* main.swift in Sources */,
+				257EF1FF249AC8BA007DC15C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		251CEB0C24992DBC0069E046 /* Debug */ = {
+		257EF200249AC8BA007DC15C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		251CEB0D24992DBC0069E046 /* Release */ = {
+		257EF201249AC8BA007DC15C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -276,7 +240,7 @@
 			};
 			name = Release;
 		};
-		251CEB0F24992DBC0069E046 /* Debug */ = {
+		257EF203249AC8BA007DC15C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -287,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		251CEB1024992DBC0069E046 /* Release */ = {
+		257EF204249AC8BA007DC15C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -301,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		251CEB0224992DBC0069E046 /* Build configuration list for PBXProject "Largest Rectangle" */ = {
+		257EF1F6249AC8BA007DC15C /* Build configuration list for PBXProject "Simple Text Editor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				251CEB0C24992DBC0069E046 /* Debug */,
-				251CEB0D24992DBC0069E046 /* Release */,
+				257EF200249AC8BA007DC15C /* Debug */,
+				257EF201249AC8BA007DC15C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		251CEB0E24992DBC0069E046 /* Build configuration list for PBXNativeTarget "Largest Rectangle" */ = {
+		257EF202249AC8BA007DC15C /* Build configuration list for PBXNativeTarget "Simple Text Editor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				251CEB0F24992DBC0069E046 /* Debug */,
-				251CEB1024992DBC0069E046 /* Release */,
+				257EF203249AC8BA007DC15C /* Debug */,
+				257EF204249AC8BA007DC15C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 251CEAFF24992DBC0069E046 /* Project object */;
+	rootObject = 257EF1F3249AC8BA007DC15C /* Project object */;
 }
