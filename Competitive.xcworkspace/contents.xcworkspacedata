@@ -5,6 +5,9 @@
       location = "container:"
       name = "HackerRank">
       <FileRef
+         location = "group:Min Max Riddle/Min Max Riddle.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Largest Rectangle/Largest Rectangle.xcodeproj">
       </FileRef>
       <FileRef
@@ -51,6 +54,9 @@
       </FileRef>
       <FileRef
          location = "group:Max Array Sum/Max Array Sum.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Largest Rectangle/../Simple Text Editor/Simple Text Editor.xcodeproj">
       </FileRef>
    </Group>
    <FileRef

@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		251CEB0B24992DBC0069E046 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251CEB0A24992DBC0069E046 /* main.swift */; };
+		25A5450A24CFB5DA008B41D0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5450924CFB5DA008B41D0 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		251CEB0524992DBC0069E046 /* CopyFiles */ = {
+		25A5450424CFB5DA008B41D0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		251CEB0724992DBC0069E046 /* Largest Rectangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Largest Rectangle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		251CEB0A24992DBC0069E046 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2595488F24D764CE00EE1750 /* minmax.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = minmax.py; sourceTree = "<group>"; };
+		25A5450624CFB5DA008B41D0 /* Min Max Riddle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Min Max Riddle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A5450924CFB5DA008B41D0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		251CEB0424992DBC0069E046 /* Frameworks */ = {
+		25A5450324CFB5DA008B41D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,66 +39,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		251CEAFE24992DBC0069E046 = {
+		25A544FD24CFB5DA008B41D0 = {
 			isa = PBXGroup;
 			children = (
-				251CEB0924992DBC0069E046 /* Largest Rectangle */,
-				251CEB0824992DBC0069E046 /* Products */,
+				25A5450824CFB5DA008B41D0 /* Min Max Riddle */,
+				25A5450724CFB5DA008B41D0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		251CEB0824992DBC0069E046 /* Products */ = {
+		25A5450724CFB5DA008B41D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				251CEB0724992DBC0069E046 /* Largest Rectangle */,
+				25A5450624CFB5DA008B41D0 /* Min Max Riddle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		251CEB0924992DBC0069E046 /* Largest Rectangle */ = {
+		25A5450824CFB5DA008B41D0 /* Min Max Riddle */ = {
 			isa = PBXGroup;
 			children = (
-				251CEB0A24992DBC0069E046 /* main.swift */,
+				2595488F24D764CE00EE1750 /* minmax.py */,
+				25A5450924CFB5DA008B41D0 /* main.swift */,
 			);
-			path = "Largest Rectangle";
+			path = "Min Max Riddle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		251CEB0624992DBC0069E046 /* Largest Rectangle */ = {
+		25A5450524CFB5DA008B41D0 /* Min Max Riddle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 251CEB0E24992DBC0069E046 /* Build configuration list for PBXNativeTarget "Largest Rectangle" */;
+			buildConfigurationList = 25A5450D24CFB5DA008B41D0 /* Build configuration list for PBXNativeTarget "Min Max Riddle" */;
 			buildPhases = (
-				251CEB0324992DBC0069E046 /* Sources */,
-				251CEB0424992DBC0069E046 /* Frameworks */,
-				251CEB0524992DBC0069E046 /* CopyFiles */,
+				25A5450224CFB5DA008B41D0 /* Sources */,
+				25A5450324CFB5DA008B41D0 /* Frameworks */,
+				25A5450424CFB5DA008B41D0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Largest Rectangle";
-			productName = "Largest Rectangle";
-			productReference = 251CEB0724992DBC0069E046 /* Largest Rectangle */;
+			name = "Min Max Riddle";
+			productName = "Min Max Riddle";
+			productReference = 25A5450624CFB5DA008B41D0 /* Min Max Riddle */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		251CEAFF24992DBC0069E046 /* Project object */ = {
+		25A544FE24CFB5DA008B41D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Vitor Silva";
 				TargetAttributes = {
-					251CEB0624992DBC0069E046 = {
-						CreatedOnToolsVersion = 11.5;
+					25A5450524CFB5DA008B41D0 = {
+						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 				};
 			};
-			buildConfigurationList = 251CEB0224992DBC0069E046 /* Build configuration list for PBXProject "Largest Rectangle" */;
+			buildConfigurationList = 25A5450124CFB5DA008B41D0 /* Build configuration list for PBXProject "Min Max Riddle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -105,29 +108,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 251CEAFE24992DBC0069E046;
-			productRefGroup = 251CEB0824992DBC0069E046 /* Products */;
+			mainGroup = 25A544FD24CFB5DA008B41D0;
+			productRefGroup = 25A5450724CFB5DA008B41D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				251CEB0624992DBC0069E046 /* Largest Rectangle */,
+				25A5450524CFB5DA008B41D0 /* Min Max Riddle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		251CEB0324992DBC0069E046 /* Sources */ = {
+		25A5450224CFB5DA008B41D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251CEB0B24992DBC0069E046 /* main.swift in Sources */,
+				25A5450A24CFB5DA008B41D0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		251CEB0C24992DBC0069E046 /* Debug */ = {
+		25A5450B24CFB5DA008B41D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +190,7 @@
 			};
 			name = Debug;
 		};
-		251CEB0D24992DBC0069E046 /* Release */ = {
+		25A5450C24CFB5DA008B41D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,23 +243,36 @@
 			};
 			name = Release;
 		};
-		251CEB0F24992DBC0069E046 /* Debug */ = {
+		25A5450E24CFB5DA008B41D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LDL4S5S8SE;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		251CEB1024992DBC0069E046 /* Release */ = {
+		25A5450F24CFB5DA008B41D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LDL4S5S8SE;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -265,25 +281,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		251CEB0224992DBC0069E046 /* Build configuration list for PBXProject "Largest Rectangle" */ = {
+		25A5450124CFB5DA008B41D0 /* Build configuration list for PBXProject "Min Max Riddle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				251CEB0C24992DBC0069E046 /* Debug */,
-				251CEB0D24992DBC0069E046 /* Release */,
+				25A5450B24CFB5DA008B41D0 /* Debug */,
+				25A5450C24CFB5DA008B41D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		251CEB0E24992DBC0069E046 /* Build configuration list for PBXNativeTarget "Largest Rectangle" */ = {
+		25A5450D24CFB5DA008B41D0 /* Build configuration list for PBXNativeTarget "Min Max Riddle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				251CEB0F24992DBC0069E046 /* Debug */,
-				251CEB1024992DBC0069E046 /* Release */,
+				25A5450E24CFB5DA008B41D0 /* Debug */,
+				25A5450F24CFB5DA008B41D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 251CEAFF24992DBC0069E046 /* Project object */;
+	rootObject = 25A544FE24CFB5DA008B41D0 /* Project object */;
 }
